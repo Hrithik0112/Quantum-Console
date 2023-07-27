@@ -3,6 +3,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import Layout from "../src/components/Layout/Layout";
 import Calender from "./pages/Calender/Calender";
 import BoardPage from "./pages/Board/Board";
+import DataGrid from "./pages/DataGrid/DataGrid";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="calender" element={<Calender />} />
             <Route path="board" element={<BoardPage />} />
+            <Route path="users" element={<DataGrid />} />
           </Route>
         </Routes>
       </BrowserRouter>
