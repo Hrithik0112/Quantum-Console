@@ -82,7 +82,8 @@
   height: 100%;
   align-items: center;
   /* uncomment the aic, and make mt -4rem */
-  margin-top: -4rem;
+  margin-top: -2rem;
+  /* overflow-y: scroll; */
 }
 .content > div {
   width: 100%;
