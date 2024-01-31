@@ -22,8 +22,8 @@ const Dashboard = () => {
           </div>
         </div>
         <div className={css.cards}>
-          {cardsData.map((card, index) => (
-            <div className={css.card}>
+          {cardsData.map((card) => (
+            <div className={css.card} key={card.title}>
               <div className={css.cardHead}>
                 <span>{card.title}</span>
                 <span>+{card.change}</span>

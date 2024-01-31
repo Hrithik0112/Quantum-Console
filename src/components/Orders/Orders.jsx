@@ -17,8 +17,8 @@ const Orders = () => {
       </div>
 
       <div className={css.orders}>
-        {ordersData.map((order, index) => (
-          <div key={index} className={css.order}>
+        {ordersData.map((order) => (
+          <div key={order.name} className={css.order}>
             <div>
               <span>{order.name}</span>
               <span>$ {order.change}</span>

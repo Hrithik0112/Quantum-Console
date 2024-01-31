@@ -78,7 +78,7 @@ const OrdersPieChart = () => {
     ],
   };
 
-  return <ReactECharts style={{ height: 140, marginTop: "1rem" }} option={option} />;
+  return <ReactECharts style={{ height: 130, marginTop: "o.5rem" }} option={option} />;
 };
 
 export default OrdersPieChart;

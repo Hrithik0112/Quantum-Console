@@ -9,17 +9,18 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  margin-top: -1rem;
 }
 .head > img {
   width: 2rem;
 }
 .stat {
-  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
   color: var(--grey);
+  margin-top: -1rem;
 }
 .stat > :nth-child(1) {
   font-size: 0.8rem;
@@ -34,7 +35,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .order > div {
   display: flex;
@@ -45,7 +46,7 @@
 }
 
 .order > :nth-child(1) {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 .order > :nth-child(1) > :nth-child(1) {
   font-size: 1rem;

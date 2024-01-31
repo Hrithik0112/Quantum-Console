@@ -13,6 +13,8 @@
 .logo {
   width: 45%;
   max-width: 5rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
 
 .menu {
@@ -21,9 +23,14 @@
 
   flex-direction: column;
   gap: 5rem;
+  padding-left: 1rem;
 }
 
 .item > svg {
   fill: white;
   width: 3rem;
+}
+
+.menu .item.active > svg {
+  fill: aqua;
 }

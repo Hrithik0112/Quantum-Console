@@ -30,7 +30,7 @@ const AddCardModal = ({ visible, onClose, handleCardAdd }) => {
 
         <div>
           <span className={css.label}>Detail</span>
-          <textArea
+          <textarea
             rows={10}
             className={css.input}
             value={detail}
