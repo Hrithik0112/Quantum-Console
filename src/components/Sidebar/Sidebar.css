@@ -31,6 +31,7 @@
   width: 3rem;
 }
 
-.menu .item.active > svg {
-  fill: aqua;
+.item.active > svg {
+  fill: orange;
+  width: 3rem;
 }
